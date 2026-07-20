@@ -1,10 +1,10 @@
 package ph.edu.dlsu.lbycpob.gradetrackerwebapp.service;
 
 import org.springframework.stereotype.Service;
-import ph.edu.dlsu.lbycpob.gradetracker.dto.StudentFormDTO;
-import ph.edu.dlsu.lbycpob.gradetracker.model.Student;
-import ph.edu.dlsu.lbycpob.gradetracker.util.GradeCalculator;
-import ph.edu.dlsu.lbycpob.gradetracker.util.IDVerifier;
+import ph.edu.dlsu.lbycpob.gradetrackerwebapp.dto.StudentFormDTO;
+import ph.edu.dlsu.lbycpob.gradetrackerwebapp.model.Student;
+import ph.edu.dlsu.lbycpob.gradetrackerwebapp.util.GradeCalculator;
+import ph.edu.dlsu.lbycpob.gradetrackerwebapp.util.IDVerifier;
 
 // ============================================================
 // GradeService.java

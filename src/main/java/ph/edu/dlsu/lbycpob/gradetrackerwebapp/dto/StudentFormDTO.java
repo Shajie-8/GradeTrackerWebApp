@@ -84,7 +84,3 @@ public class StudentFormDTO {
 
     public double getProject()               { return project; }
     public void   setProject(double v)       { this.project = v; } }
-
-
-
-}
