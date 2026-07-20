@@ -45,6 +45,14 @@ import java.util.List;
 //   model data built here.
 // ============================================================
 
-
+@Controller
 public class GradeController {
-}
+
+    private final StudentSessionRepository repo;
+    private final GradeService gradeService;
+
+    // Constructor injection -- preferred over @Autowired on fields
+    public GradeController(StudentSessionRepository repo, GradeService gradeService) {
+        this.repo         = repo;
+        this.gradeService = gradeService;
+    }
