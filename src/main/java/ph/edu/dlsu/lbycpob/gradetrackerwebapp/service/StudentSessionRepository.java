@@ -55,5 +55,3 @@ public class StudentSessionRepository {
     /** True when the list has reached MAX_STUDENTS. */
     public boolean isFull() { return students.size() >= GradeConstants.MAX_STUDENTS; }
 }
-
-}

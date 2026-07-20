@@ -1,4 +1,4 @@
-package ph.edu.dlsu.lbycpob.gradetracker.controller;
+package ph.edu.dlsu.lbycpob.gradetrackerwebapp.controller;
 
 import jakarta.validation.Valid;
 import org.springframework.stereotype.Controller;
@@ -6,15 +6,15 @@ import org.springframework.ui.Model;
 import org.springframework.validation.BindingResult;
 import org.springframework.web.bind.annotation.*;
 import org.springframework.web.servlet.mvc.support.RedirectAttributes;
-import ph.edu.dlsu.lbycpob.gradetracker.dto.ClassStatsResult;
-import ph.edu.dlsu.lbycpob.gradetracker.dto.IDVerifyFormDTO;
-import ph.edu.dlsu.lbycpob.gradetracker.dto.StudentFormDTO;
-import ph.edu.dlsu.lbycpob.gradetracker.model.Student;
-import ph.edu.dlsu.lbycpob.gradetracker.service.GradeService;
-import ph.edu.dlsu.lbycpob.gradetracker.service.StudentSessionRepository;
-import ph.edu.dlsu.lbycpob.gradetracker.util.GradeCalculator;
-import ph.edu.dlsu.lbycpob.gradetracker.util.GradeConstants;
-import ph.edu.dlsu.lbycpob.gradetracker.util.IDVerifier;
+import ph.edu.dlsu.lbycpob.gradetrackerwebapp.dto.ClassStatsResult;
+import ph.edu.dlsu.lbycpob.gradetrackerwebapp.dto.IDVerifyFormDTO;
+import ph.edu.dlsu.lbycpob.gradetrackerwebapp.dto.StudentFormDTO;
+import ph.edu.dlsu.lbycpob.gradetrackerwebapp.model.Student;
+import ph.edu.dlsu.lbycpob.gradetrackerwebapp.service.GradeService;
+import ph.edu.dlsu.lbycpob.gradetrackerwebapp.service.StudentSessionRepository;
+import ph.edu.dlsu.lbycpob.gradetrackerwebapp.util.GradeCalculator;
+import ph.edu.dlsu.lbycpob.gradetrackerwebapp.util.GradeConstants;
+import ph.edu.dlsu.lbycpob.gradetrackerwebapp.util.IDVerifier;
 
 
 import java.util.List;
